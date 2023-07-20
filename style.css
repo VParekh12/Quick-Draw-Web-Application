@@ -1,0 +1,42 @@
+body {
+  background-color: turquoise;
+}
+
+h1 {
+  color: darkblue;
+  font-family: 'Playfair', serif;
+}
+
+#show_sketch {
+  float: right;
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: example;
+  animation-duration: 4s;
+  margin-top: 125px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px orange;}
+}
+
+p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+#score {
+  margin-left: -1000px;
+  font-size: 20px;
+}
+
+#timer {
+  margin-right: -1000px;
+  margin-top: -500px;
+  font-size: 20px;
+}
